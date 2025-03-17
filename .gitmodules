@@ -1,0 +1,4 @@
+[submodule "FEIcar"]
+	path = FEIcar
+	url = https://github.com/peter115342/FEIcar.git
+	branch = 4_5_1_FEI
