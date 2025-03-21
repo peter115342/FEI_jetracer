@@ -1,0 +1,50 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introduction",
+    "description": "The label of footer link with label=Introduction linking to /docs/intro"
+  },
+  "link.item.label.Assembly": {
+    "message": "Assembly",
+    "description": "The label of footer link with label=Assembly linking to /docs/assembly"
+  },
+  "link.item.label.Movement Control": {
+    "message": "Movement Control",
+    "description": "The label of footer link with label=Movement Control linking to /docs/movement-control"
+  },
+  "link.item.label.FEI STU": {
+    "message": "FEI STU",
+    "description": "The label of footer link with label=FEI STU linking to https://www.fei.stuba.sk/"
+  },
+  "link.item.label.Waveshare": {
+    "message": "Waveshare",
+    "description": "The label of footer link with label=Waveshare linking to https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/peter115342/FEI_jetracer"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 FEI STU JetRacer Project. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.title.References": {
+    "message": "References",
+    "description": "The title of the footer links column with title=References in the footer"
+  },
+  "link.item.label.Ústav automobilovej mechatroniky FEI STU": {
+    "message": "Ústav automobilovej mechatroniky FEI STU",
+    "description": "The label of footer link with label=Ústav automobilovej mechatroniky FEI STU linking to http://uamt.fei.stuba.sk/web/?q=sk"
+  }
+}

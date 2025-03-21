@@ -1,0 +1,70 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0039a6;
+  /* FEI STU blue */
+  --ifm-color-primary-dark: #003395;
+  --ifm-color-primary-darker: #002d8c;
+  --ifm-color-primary-darkest: #002673;
+  --ifm-color-primary-light: #003fb7;
+  --ifm-color-primary-lighter: #0045c0;
+  --ifm-color-primary-lightest: #004bd9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4d7fd6;
+  /* Lighter blue for dark mode */
+  --ifm-color-primary-dark: #3670d0;
+  --ifm-color-primary-darker: #2a66cb;
+  --ifm-color-primary-darkest: #2354a8;
+  --ifm-color-primary-light: #648edc;
+  --ifm-color-primary-lighter: #7198df;
+  --ifm-color-primary-lightest: #96b3e7;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom navbar styling */
+.navbar {
+  background-color: rgb(0, 57, 166);
+  /* FEI STU blue */
+}
+
+.navbar__title,
+.navbar__link,
+.navbar__link--active {
+  color: white;
+}
+
+/* Make dropdown items readable */
+.dropdown__menu {
+  background-color: white;
+}
+
+.dropdown__link {
+  color: var(--ifm-color-primary);
+}
+
+/* Fix sidebar colors when opened on mobile */
+.navbar-sidebar {
+  background-color: white;
+}
+
+.navbar-sidebar .navbar__title,
+.navbar-sidebar .navbar__link,
+.navbar-sidebar .navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* Make the logo a bit smaller to fit nicely in the navbar */
+.navbar__logo img {
+  height: 32px;
+  margin-right: 8px;
+}
