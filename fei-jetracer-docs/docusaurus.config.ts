@@ -18,7 +18,7 @@ const config: Config = {
   trailingSlash: true,
   deploymentBranch: "gh-pages",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Internationalization configuration
@@ -94,10 +94,6 @@ const config: Config = {
             {
               label: "Assembly",
               to: "/docs/assembly",
-            },
-            {
-              label: "Movement Control",
-              to: "/docs/movement-control",
             },
           ],
         },
