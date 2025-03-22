@@ -47,7 +47,7 @@ Based on the Waveshare tutorial, here's how to control your JetRacer's movement:
 4. Control the robot movement with keyboard
 5. Connect to gamepad control for easier operation
 
-For detailed instructions, check out the [Movement Control](movement-control) section.
+For detailed instructions, check out the section.
 
 ## Project Structure
 
@@ -126,7 +126,7 @@ Na základe tutoriálu od Waveshare, takto môžete ovládať pohyb vášho JetR
 4. Ovládajte pohyb robota pomocou klávesnice
 5. Pripojte sa ku gamepad ovládaniu pre jednoduchšiu prevádzku
 
-Pre podrobné inštrukcie si pozrite sekciu [Ovládanie pohybu](movement-control).
+Pre podrobné inštrukcie si pozrite sekciu.
 
 ## Štruktúra projektu
 
@@ -146,10 +146,9 @@ Poďme začať s vaším JetRacerom!
 
 ## Step 4: Create a Movement Control page based on the Waveshare tutorial
 
-````markdown:docs/movement-control.md
 ---
-sidebar_position: 4
----
+
+## sidebar_position: 4
 
 # Robot Movement Control
 
@@ -161,7 +160,7 @@ First, check if the driver board is connected to Jetson Nano properly:
 
 ```bash
 ls /dev
-````
+```
 
 You should see `ttyACM0` and `ttyACM1` devices, where:
 
