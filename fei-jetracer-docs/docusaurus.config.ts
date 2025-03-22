@@ -13,8 +13,8 @@ const config: Config = {
   baseUrl: "/FEI_jetracer/",
 
   // GitHub pages deployment config
-  organizationName: "peter115342", // Usually your GitHub org/user name
-  projectName: "FEI_jetracer", // Usually your repo name
+  organizationName: "peter115342",
+  projectName: "FEI_jetracer",
   trailingSlash: true,
   deploymentBranch: "gh-pages",
 
