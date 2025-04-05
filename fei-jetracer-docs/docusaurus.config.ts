@@ -85,28 +85,11 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Introduction",
-              to: "/docs/intro",
-            },
-            {
-              label: "Assembly",
-              to: "/docs/assembly",
-            },
-          ],
-        },
-        {
-          title: "References",
+          title: "Faculty",
           items: [
             {
               label: "FEI STU",
               href: "https://www.fei.stuba.sk/",
-            },
-            {
-              label: "Waveshare",
-              href: "https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit",
             },
             {
               label: "Ústav automobilovej mechatroniky FEI STU",
@@ -115,11 +98,32 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "References",
           items: [
             {
-              label: "GitHub",
+              label: "Waveshare",
+              href: "https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit",
+            },
+            {
+              label: "DonkeyCar",
+              href: "https://docs.donkeycar.com/",
+            },
+            {
+              label: "YOLO",
+              href: "https://pjreddie.com/darknet/yolo/",
+            },
+          ],
+        },
+        {
+          title: "Github",
+          items: [
+            {
+              label: "This Project",
               href: "https://github.com/peter115342/FEI_jetracer",
+            },
+            {
+              label: "peter115342",
+              href: "https://github.com/peter115342",
             },
           ],
         },
