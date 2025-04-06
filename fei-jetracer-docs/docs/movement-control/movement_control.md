@@ -91,7 +91,7 @@ roslaunch jetracer keyboard.launch
 
 After successful operation, an interface appears displaying the control mapping, and you can control the robot movement by pressing the keyboard.
 
-## Step5: Connect the Virtual Machine to the Gamepad Control
+## Step 5: Connect the Virtual Machine to the Gamepad Control
 
 Connect the USB receiver of the gamepad to the host computer, and a box will pop up, select Connect to Virtual Machine -> Ubuntu JetRacer
 
@@ -112,7 +112,7 @@ Press different buttons on the gamepad, and see the corresponding values change.
 Start the joystick node.
 
 ```bash
-roslaunch teleop_twist_joy teleop.launch
+roslaunch jetracer joy.launch
 ```
 
 Turn on the gamepad, press the HOME button and a red light will be on, then press and hold the L1 button in the upper left corner, and at the same time control the left joystick left and right directions to control the steering of the robot's servos, and the right joystick up and down to control the robot to move forward and backward. Release the L1 key, and the robot stops.
