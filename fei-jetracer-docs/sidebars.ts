@@ -15,6 +15,7 @@ const sidebars: SidebarsConfig = {
     },
     "communication/communication",
     "movement-control/movement_control",
+    "node-topics/node_topics",
   ],
 };
 

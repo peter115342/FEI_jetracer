@@ -4,19 +4,6 @@ sidebar_position: 6
 
 # Robot Movement Control
 
-## JetRacer ROS Kit User Guide
-
-- [JetRacer ROS Kit Tutorial I: How to assemble the JetRacer](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_I:_Assembly_Manual)
-- [JetRacer ROS Kit Tutorial II: How to Install the Jetson Nano Image](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_II:_Install_Jetson_Nano_Image)
-- [JetRacer ROS Kit Tutorial III: How to install Ubuntu Virtual Image](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_III:_Install_Ubuntu_Virtual_Image)
-- [JetRacer ROS Kit Tutorial IV: How to congifure multi-machine communication](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_IV:_Configure_Multi-machine_Communication)
-- [JetRacer ROS Kit Tutorial V: Robot Movement Control](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_V:_Robot_Movement_Control)
-- [JetRacer ROS Kit Tutorial VI: View Node Topics With ROS](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_VI:_View_Node_Topics_With_ROS)
-- [JetRacer ROS Kit Tutorial VII: Robot Odometer Calibration](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_VII:_Robot_Odometer_Calibration)
-- [JetRacer ROS Kit Tutorial VIII: Start the Camera Node](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_VIII:_Start_the_Camera_Node)
-- [JetRacer ROS Kit Tutorial IX: Enable the Lidar Node](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit_Tutorial_%E2%85%A8:_Enable_the_Lidar_Node)
-- [JetRacer Main Page](https://www.waveshare.com/wiki/JetRacer_ROS_AI_Kit)
-
 ## Step 1: Add serial User Group
 
 Enter the command ls /dev in jetson nano to check whether the driver board is connected to Jetson normally and whether ttyACM0 and ttyACM1 devices are found 【where ttyACM0 is used to communicate with the microcontroller, and ttyACM1 is used to communicate with the radar】.
