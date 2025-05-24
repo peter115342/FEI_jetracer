@@ -27,7 +27,7 @@ Odkedy VMware prevzala spoločnosť Broadcom, inštalácia sa stala trochu zdĺh
    Budete požiadaní o prihlásenie, pri prihlasovaní použite svoju e-mailovú adresu, ktorú ste použili pri vytváraní účtu, ako používateľské meno.
 5. Stiahnite VMware Workstation 16.2.2 Player pre 64-bitové operačné systémy Windows, táto verzia bola testovaná a preukázalo sa, že funguje s našou VM.
 
-## Krok 2: Stiahnutie obrazu Ubuntu VM
+## Krok 2: Stiahnutie image Ubuntu VM
 
 1. Stiahnite predkonfigurovaný obraz Ubuntu VM z [Google Drive](https://drive.google.com/file/d/1u98h-GooQYXppDZCbRxvvfh2Zw3-cUcq/view?usp=sharing)
 2. Rozbaľte stiahnutý .zip súbor na miesto vo vašom počítači (najlepšie s aspoň 20GB voľného miesta)

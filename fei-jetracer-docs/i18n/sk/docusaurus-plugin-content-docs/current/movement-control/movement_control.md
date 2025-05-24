@@ -34,14 +34,14 @@ Pripojte sa cez SSH k robotovi, otvorte terminál a zadajte nasledujúci príkaz
 roscore
 ```
 
-Nasledujúci príkaz roslaunch tiež automaticky spustí hlavný uzol, ale účelom samostatného spustenia hlavného uzla je udržať trvalé pripojenie k virtuálnemu stroju. V opačnom prípade sa hlavný uzol automaticky zatvorí, keď sa zatvorí uzol podvozku, čo spôsobí odpojenie virtuálneho stroja.
+Nasledujúci príkaz roslaunch tiež automaticky spustí hlavný uzol, ale účelom samostatného spustenia hlavného uzla je udržať trvalé pripojenie k virtuálke. V opačnom prípade sa hlavný uzol automaticky zatvorí, keď sa zatvorí uzol podvozku, čo spôsobí odpojenie virtuálneho stroja.
 Zadajte nasledujúci príkaz na spustenie uzla podvozku robota.
 
 ```bash
 roslaunch jetracer jetracer.launch
 ```
 
-Otvorte terminál virtuálneho stroja Ubuntu a zadajte nasledujúci príkaz do terminálu na overenie, či je viacstrojová komunikácia normálna.
+Otvorte terminál virtuálneho stroja Ubuntu a zadajte nasledujúci príkaz do terminálu na overenie, či je viac-počítačová komunikácia normálna.
 
 ```bash
 rostopic list

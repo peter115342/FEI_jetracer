@@ -32,4 +32,4 @@ Pri montáži vášho JetRaceru majte na pamäti tieto dôležité pokyny:
 - Venujte pozornosť poradiu káblov serva: Žltý-PWM, Červený-5V, Hnedý-GND
 - Pred zapnutím systému skontrolujte všetky pripojenia
 
-Po dokončení montáže podľa návodu Waveshare budete pripravení prejsť na inštaláciu obrazu Jetson Nano.
+Po dokončení montáže podľa návodu Waveshare budete pripravení prejsť na inštaláciu image Jetson Nano.

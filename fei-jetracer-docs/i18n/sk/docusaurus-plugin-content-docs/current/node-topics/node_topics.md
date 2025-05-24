@@ -45,7 +45,7 @@ V zobrazení rqt_plot, /motor/lset a /motor/rset predstavujú kódovanú rýchlo
 
 ## Krok 3: Úprava PID parametrov cez rqt-reconfigure
 
-V termináli virtuálneho stroja môžete spustiť nasledujúci príkaz na otvorenie nástroja na úpravu parametrov.
+V termináli virtuálneho môžete spustiť nasledujúci príkaz na otvorenie nástroja na úpravu parametrov.
 
 ```bash
 rosrun rqt_reconfigure rqt_reconfigure
@@ -99,10 +99,10 @@ Kliknite na tlačidlo Add v ľavom dolnom rohu, vyberte Imu a kliknite na OK pre
 ![IMU zobrazenie v Rviz](./images/rviz_IMU.png)
 
 Teraz môžete pridať položku zobrazenia, pridať Axes a nastaviť referenčný rámec na imu_link.
-Imu Topic vyberte "/imu" na zobrazenie informácií o IMU, vyberte Enable box na zobrazenie krabice a zaškrtnite Enable axes na zobrazenie súradníc. Zaškrtnite Enable acceleration na zobrazenie šípky. Nastavte Acc. vector scale na 0,2 na minimalizáciu šípky.
+Imu Topic vyberte "/imu" na zobrazenie informácií o IMU, vyberte Enable box na zobrazenie box a zaškrtnite Enable axes na zobrazenie súradníc. Zaškrtnite Enable acceleration na zobrazenie šípky. Nastavte Acc. vector scale na 0,2 na minimalizáciu šípky.
 ![IMU box zobrazenie v Rviz](./images/rviz_IMU2.png)
 
-Otočte auto a krabica sa tiež otočí.
+Otočte auto a box sa tiež otočí.
 
 ## Riešenie problémov
 

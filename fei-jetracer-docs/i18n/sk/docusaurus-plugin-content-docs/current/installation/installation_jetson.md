@@ -2,20 +2,20 @@
 sidebar_position: 3
 ---
 
-# Inštalácia obrazu pre Jetson Nano
+# Inštalácia image pre Jetson Nano
 
-Po [dokončení montáže](/docs/assembly/assembly) vášho JetRacera je ďalším krokom nastavenie softvérového prostredia inštaláciou obrazu Jetson Nano.
+Po [dokončení montáže](/docs/assembly/assembly) vášho JetRacera je ďalším krokom nastavenie softvérového prostredia inštaláciou image Jetson Nano.
 
 ## Prehľad
 
 Jetson Nano vyžaduje správne nakonfigurovaný operačný systém založený na Ubuntu s potrebnými ovládačmi a softvérovými balíkmi na ovládanie komponentov JetRacera. Tento návod vás prevedie:
 
-1. Programovaním obrazu Jetson Nano na SD kartu
+1. Programovaním image Jetson Nano na SD kartu
 2. Nastavením Wi-Fi pripojenia
 3. Zriadením vzdialeného prístupu k vášmu Jetson Nano
 4. Overením inštalácie
 
-## Krok 1: Nahranie obrazu Jetson Nano
+## Krok 1: Nahranie image Jetson Nano
 
 > **Poznámka:** Ak ste dostali vašu JetRacer súpravu s už pripravenou SD kartou, môžete tento krok preskočiť.
 
@@ -25,7 +25,7 @@ Pre inštaláciu operačného systému:
 2. Stiahnite si obraz JetRacer ROS z [Google Drive](https://drive.google.com/file/d/16OBLRNlrZaSkhVcC4xJ6VugtChmZw1_B/view?usp=sharing)
 3. Naformátujte vašu SD kartu pomocou [SDFormatter](https://files.waveshare.com/upload/3/31/Panasonic_SDFormatter_%289%29.zip)
    > **Dôležité:** Odpojte ostatné úložné zariadenia, aby ste predišli formátovaniu nesprávneho zariadenia
-4. Použite [Rufus](https://rufus.ie/en/) alebo [Balena Etcher](https://etcher.balena.io/) na nahranie ISO obrazu na SD kartu
+4. Použite [Rufus](https://rufus.ie/en/) alebo [Balena Etcher](https://etcher.balena.io/) na nahranie ISO image na SD kartu
 5. Bezpečne vysuňte SD kartu z počítača
 
 ## Krok 2: Pripojenie Jetson Nano k Wi-Fi

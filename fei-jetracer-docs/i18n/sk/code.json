@@ -333,5 +333,26 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tagy",
     "description": "The title of the tag list page"
+  },
+  "homepage.getStarted": {
+    "message": "Začnite s Jetracer ROS AI Kit 🏎️"
+  },
+  "homepage.description": {
+    "message": "Popis bude zobrazený v meta tagu v <head />"
+  },
+  "homepage.feicarTitle": {
+    "message": "FEIcar - DonkeyCar s detekciou objektov a rozdielnym používateľským rozhraním"
+  },
+  "homepage.feicarDescription": {
+    "message": "Vytvorili sme fork DonkeyCar nazvaný"
+  },
+  "homepage.feicarDescription2": {
+    "message": "ktorý pridáva možnosti detekcie objektov pomocou YOLOv4-tiny k štandardnej platforme DonkeyCar a prepracované používateľské rozhranie."
+  },
+  "homepage.feicarRepo": {
+    "message": "FEIcar GitHub repozitár"
+  },
+  "homepage.donkeycarRepo": {
+    "message": "DonkeyCar GitHub repozitár"
   }
 }
