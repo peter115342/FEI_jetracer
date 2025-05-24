@@ -9,15 +9,7 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
-  {
-    title: <Translate>Easy to Assemble</Translate>,
-    description: (
-      <Translate>
-        Follow the step-by-step assembly guide to build your JetRacer robot quickly and easily.
-      </Translate>
-    ),
-  },
-  {
+{
     title: <Translate>Powered by ROS</Translate>,
     description: (
       <Translate>
