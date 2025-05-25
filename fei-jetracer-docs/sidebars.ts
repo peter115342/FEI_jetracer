@@ -16,6 +16,11 @@ const sidebars: SidebarsConfig = {
     "communication/communication",
     "movement-control/movement_control",
     "node-topics/node_topics",
+    {
+      type: "category",
+      label: "FEIcar",
+      items: ["FEIcar/FEIcar_installation", "FEIcar/object_detection"],
+    },
   ],
 };
 
