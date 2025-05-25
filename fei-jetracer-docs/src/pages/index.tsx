@@ -23,7 +23,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro">
             <Translate id="homepage.getStarted">
-              Get started with Jetracer ROS AI Kit 🏎️
+              Get started 🏎️
             </Translate>
           </Link>
         </div>
