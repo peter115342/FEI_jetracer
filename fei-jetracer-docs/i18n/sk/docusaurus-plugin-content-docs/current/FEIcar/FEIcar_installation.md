@@ -1,10 +1,81 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Inštalácia FEI DonkeyCar na Jetson Nano
 
 Tento návod vás prevedie inštaláciou našej prispôsobenej verzie DonkeyCar na Jetson Nano pre projekt FEI JetRacer. Toto nastavenie umožňuje možnosti autonómneho riadenia pomocou strojového učenia a počítačového videnia.
+
+## Rýchly štart - Predkonfigurovaný obraz (Odporúčané)
+
+**Ak chcete preskočiť celý proces inštalácie**, poskytujeme predkonfigurovaný obraz SD karty s už nastaveným všetkým:
+
+**Odkaz na stiahnutie**: [FEI JetRacer kompletný obraz](https://drive.google.com/file/d/1OVulgYBTdY4HOwtRhksuTYHidAfxd2wF/view?usp=sharing)
+
+### Čo je zahrnuté v obraze
+
+Predkonfigurovaný obraz obsahuje:
+
+- Ubuntu 18.04 s JetPack 4.5
+- FEI DonkeyCar s predvytvorenou mycar aplikáciou
+- OpenCV s podporou CUDA a cuDNN
+- YOLOv4-tiny pre detekciu objektov
+- Všetky závislosti a knižnice predpripravené
+- Pripravenú konfiguráciu pre JetRacer hardware
+
+### Nahratie obrazu na SD kartu
+
+1. **Stiahnite obraz** (približne 8GB komprimovaný)
+2. **Rozbaľte obraz** ak je komprimovaný
+3. **Nahrajte na SD kartu** pomocou jedného z týchto nástrojov:
+
+   **Možnosť A: Raspberry Pi Imager (Odporúčané)**
+
+   - Stiahnite [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
+   - Vyberte "Use custom image" a zvoľte stiahnutý súbor
+   - Vyberte vašu SD kartu (32GB alebo väčšiu)
+   - Kliknite "Write"
+
+   **Možnosť B: Balena Etcher**
+
+   - Stiahnite [Balena Etcher](https://www.balena.io/etcher/)
+   - Vyberte súbor obrazu
+   - Vyberte vašu SD kartu
+   - Kliknite "Flash"
+
+   **Možnosť C: Príkazový riadok (Linux/macOS)**
+
+   ```bash
+   # Nájdite vaše SD karta zariadenie (buďte opatrní!)
+   lsblk
+
+   # Nahrajte obraz (nahraďte /dev/sdX vaším SD karta zariadením)
+   sudo dd if=fei-jetracer-image.img of=/dev/sdX bs=4M status=progress
+   ```
+
+4. **Vložte SD kartu** do vášho Jetson Nano a spustite
+
+### Nastavenie prvého spustenia
+
+Po nahratí a spustení:
+
+1. Systém automaticky zmení veľkosť súborového systému
+2. Predvolené prihlasovacie údaje:
+   - Používateľské meno: `jetson`
+   - Heslo: `jetson`
+3. DonkeyCar prostredie je pripravené v `~/mycar`
+4. Aktivujte virtuálne prostredie:
+   ```bash
+   source ~/env/bin/activate
+   ```
+
+**Ak použijete tento predkonfigurovaný obraz, môžete preskočiť zvyšok tohto návodu a taktiež [Nastavenie detekcie objektov](/docs/FEIcar/object_detection).**
+
+---
+
+## Manuálna inštalácia (Pokročilí používatelia)
+
+Ak uprednostňujete inštaláciu všetkého manuálne alebo chcete pochopiť proces, pokračujte s nasledujúcimi krokmi.
 
 ## Prehľad
 
@@ -72,6 +143,8 @@ python manage.py drive
 ```
 
 Otvorte webový prehliadač a navigujte na `http://<jetson-ip>:8887` pre prístup k ovládaciemu rozhraniu.
+
+> **Poznámka**: Funkčnosť detekcie objektov bude dostupná až po dokončení [návodu na nastavenie detekcie objektov](./object_detection). Základné rozhranie DonkeyCar bude fungovať bez detekcie objektov, ale pokročilé funkcie ako YOLO detekcia objektov vyžadujú dodatočné nastavenie.
 
 ## Riešenie problémov
 

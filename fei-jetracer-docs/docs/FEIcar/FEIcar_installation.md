@@ -6,6 +6,77 @@ sidebar_position: 8
 
 This tutorial guides you through installing our customized version of DonkeyCar on the Jetson Nano for the FEI JetRacer project. This setup enables autonomous driving capabilities using machine learning and computer vision.
 
+## Quick Start - Pre-configured Image (Recommended)
+
+**If you want to skip the entire installation process**, we provide a pre-configured SD card image with everything already set up:
+
+**Download Link**: [FEI JetRacer Complete Image](https://drive.google.com/file/d/1OVulgYBTdY4HOwtRhksuTYHidAfxd2wF/view?usp=sharing)
+
+### What's Included in the Image
+
+The pre-configured image contains:
+
+- Ubuntu 18.04 with JetPack 4.5
+- FEI DonkeyCar with mycar application pre-created
+- OpenCV with CUDA and cuDNN support
+- YOLOv4-tiny for object detection
+- All dependencies and libraries pre-installed
+- Ready-to-use configuration for JetRacer hardware
+
+### Flashing the Image to SD Card
+
+1. **Download the image** (approximately 8GB compressed)
+2. **Extract the image** if it's compressed
+3. **Flash to SD card** using one of these tools:
+
+   **Option A: Raspberry Pi Imager (Recommended)**
+
+   - Download [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
+   - Select "Use custom image" and choose the downloaded file
+   - Select your SD card (32GB or larger)
+   - Click "Write"
+
+   **Option B: Balena Etcher**
+
+   - Download [Balena Etcher](https://www.balena.io/etcher/)
+   - Select the image file
+   - Select your SD card
+   - Click "Flash"
+
+   **Option C: Command Line (Linux/macOS)**
+
+   ```bash
+   # Find your SD card device (be careful!)
+   lsblk
+
+   # Flash the image (replace /dev/sdX with your SD card device)
+   sudo dd if=fei-jetracer-image.img of=/dev/sdX bs=4M status=progress
+   ```
+
+4. **Insert the SD card** into your Jetson Nano and boot
+
+### First Boot Setup
+
+After flashing and booting:
+
+1. The system will automatically resize the filesystem
+2. Default credentials:
+   - Username: `jetson`
+   - Password: `jetson`
+3. The DonkeyCar environment is ready at `~/mycar`
+4. Activate the virtual environment:
+   ```bash
+   source ~/env/bin/activate
+   ```
+
+**If you use this pre-configured image, you can skip the rest of this tutorial and the [Object Detection setup](/docs/FEIcar/object_detection) too.**
+
+---
+
+## Manual Installation (Advanced Users)
+
+If you prefer to install everything manually or want to understand the process, continue with the steps below.
+
 ## Overview
 
 DonkeyCar is an open-source platform for building and racing autonomous RC cars. Our version includes:
@@ -72,6 +143,8 @@ python manage.py drive
 ```
 
 Open a web browser and navigate to `http://<jetson-ip>:8887` to access the control interface.
+
+> **Note**: Object detection functionality will only be available after completing the [Object Detection setup tutorial](/docs/FEIcar/object_detection). The basic DonkeyCar interface will work without object detection, but advanced features like YOLO object detection require additional setup.
 
 ## Troubleshooting
 
