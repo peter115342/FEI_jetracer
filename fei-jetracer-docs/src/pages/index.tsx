@@ -39,7 +39,7 @@ export default function Home(): ReactNode {
       title={`${siteConfig.title}`}
       description={translate({
         id: 'homepage.description',
-        message: 'Description will go into a meta tag in <head />',
+        message: 'Guide to setup your Jetracer ROS AI Kit with FEIcar',
       })}>
       <HomepageHeader />
       <main>
