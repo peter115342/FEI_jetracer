@@ -36,7 +36,3 @@ Pred začatím sa uistite, že máte:
 ## Začíname
 
 Začnite svoju cestu s JetRacerom podľa našich podrobných tutoriálov. Začnite s [Návodom na montáž](assembly) na zostavenie vášho robota.
-
-```
-
-```
