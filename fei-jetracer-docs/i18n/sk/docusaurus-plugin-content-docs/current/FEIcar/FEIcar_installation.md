@@ -73,7 +73,7 @@ Po nahratí a spustení:
 
 ---
 
-## Manuálna inštalácia (Pokročilí používatelia)
+## Manuálna inštalácia
 
 Ak uprednostňujete inštaláciu všetkého manuálne alebo chcete pochopiť proces, pokračujte s nasledujúcimi krokmi.
 

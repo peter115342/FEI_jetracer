@@ -14,6 +14,12 @@ We'll use:
 - **YOLOv4-Tiny**: A lightweight object detection model optimized for embedded devices
 - **cuDNN**: NVIDIA's deep learning acceleration library
 
+## Note
+
+**If you are using our pre-configured JetRacer image, some of this setup is already complete!**
+
+**You can skip the OpenCV with CUDA installation steps below and go directly to [Installation Verification](#verify-installation).**
+
 ## Manual Installation
 
 ### Step 1: Install OpenCV with CUDA Support

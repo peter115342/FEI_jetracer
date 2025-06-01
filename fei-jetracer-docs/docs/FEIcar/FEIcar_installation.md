@@ -73,7 +73,7 @@ After flashing and booting:
 
 ---
 
-## Manual Installation (Advanced Users)
+## Manual Installation
 
 If you prefer to install everything manually or want to understand the process, continue with the steps below.
 

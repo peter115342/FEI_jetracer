@@ -14,6 +14,12 @@ Použijeme:
 - **YOLOv4-Tiny**: Ľahký model detekcie objektov optimalizovaný pre embedded zariadenia
 - **cuDNN**: NVIDIA knižnica pre akceleráciu hlbokého učenia
 
+## Poznámka
+
+**Ak používate náš predkonfigurovaný JetRacer image, časť tohto nastavenia je už kompletná!**
+
+**Môžete preskočiť kroky inštalácie OpenCV s podporou CUDA nižšie a prejsť priamo na [Overenie inštalácie](#overenie-inštalácie).**
+
 ## Manuálna inštalácia
 
 ### Krok 1: Inštalácia OpenCV s podporou CUDA
