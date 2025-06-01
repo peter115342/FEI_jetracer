@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# FEI DonkeyCar Installation on Jetson Nano
+# FEI DonkeyCar(FEIcar) Installation on Jetson Nano
 
 This tutorial guides you through installing our customized version of DonkeyCar on the Jetson Nano for the FEI JetRacer project. This setup enables autonomous driving capabilities using machine learning and computer vision.
 
@@ -104,7 +104,7 @@ source env/bin/activate
 
 > **Important**: All subsequent DonkeyCar operations must be performed within this virtual environment. Remember to run `source env/bin/activate` every time you open a new terminal session.
 
-## Step 2: Install FEI DonkeyCar
+## Step 2: Install FEIcar
 
 Clone and install our customized version of DonkeyCar:
 

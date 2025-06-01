@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Inštalácia FEI DonkeyCar na Jetson Nano
+# Inštalácia FEI DonkeyCar(FEIcar) na Jetson Nano
 
 Tento návod vás prevedie inštaláciou našej prispôsobenej verzie DonkeyCar na Jetson Nano pre projekt FEI JetRacer. Toto nastavenie umožňuje možnosti autonómneho riadenia pomocou strojového učenia a počítačového videnia.
 
@@ -104,7 +104,7 @@ source env/bin/activate
 
 > **Dôležité**: Všetky následné operácie DonkeyCar musia byť vykonané v rámci tohto virtuálneho prostredia. Nezabudnite spustiť `source env/bin/activate` zakaždým, keď otvoríte novú reláciu terminálu.
 
-## Krok 2: Inštalácia FEI DonkeyCar
+## Krok 2: Inštalácia FEIcar
 
 Naklonujte a nainštalujte našu prispôsobenú verziu DonkeyCar:
 
