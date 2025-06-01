@@ -46,10 +46,10 @@ Predkonfigurovaný obraz obsahuje:
    **Možnosť C: Príkazový riadok (Linux/macOS)**
 
    ```bash
-   # Nájdite vaše SD karta zariadenie (buďte opatrní!)
+   # Nájdite vašu SD kartu (buďte opatrní!)
    lsblk
 
-   # Nahrajte obraz (nahraďte /dev/sdX vaším SD karta zariadením)
+   # Nahrajte obraz (nahraďte /dev/sdX vašou SD kartou)
    sudo dd if=fei-jetracer-image.img of=/dev/sdX bs=4M status=progress
    ```
 
